@@ -1,3 +1,4 @@
 halooooo githubbb
 
-Ini fitur 
+Ini fitur 1
+Ini fitur 2
