@@ -11,5 +11,7 @@ public class ifcetakKrs05 {
         System.out.println("Pembayaran UKT terverikasi");
         System.out.println("Silahkan Cetak KRS dan minta tanda tangan DPA");
         }
+        else {
+        System.out.println("Registrasi ditolak,silakan lunasi UKT terlebih dahulu");}
     }
 }
