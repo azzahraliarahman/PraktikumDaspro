@@ -22,7 +22,7 @@ public class nestedUjianSkripsi05 {
             else  {
                 pesan= "Gagal! Log bimbingan pembimbing belum mencapai 4 kali";
             }
-        } else { 
+        } else {
             pesan= "Gagal! Mahasiswa masih memiliki tanggungan kompen";
         }
         System.out.println(pesan);
