@@ -23,8 +23,7 @@ public class ProParkir {
                   System.out.println("Total Parkir: " + total);
               }
             }
-            System.out.println("Total Parkir: " + total);
-
+           
           }else if (jenis != 0) {
           System.out.println("Pilihan tidak valid, silahkan coba lagi.");
           }
