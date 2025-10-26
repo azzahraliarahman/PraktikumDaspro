@@ -7,6 +7,7 @@ public class cekGenapGanjil {
         int angka = sc.nextInt();
         String hasil = (angka % 2 == 0) ? "Genap" : "Ganjil";
         System.out.println(angka + " adalah bilangan " + hasil);
+        sc.close();
     }
     
 }

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CM1_AzzahraAulia05Revisi {
+public class nyobaCoba {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -38,25 +38,7 @@ public class CM1_AzzahraAulia05Revisi {
         int jalurMasuk = sc.nextInt();
         String jalur;
         String ketJalur = "";
-        switch (jalurMasuk) {
-            case 1:
-                jalur = "SNBP";
-                ketJalur = "Minimal nilai akhir Lulus 65";
-                break;
-            case 2:
-                jalur = "SNBT";
-                ketJalur = "Minimal nilai akhir Lulus 60";
-                break;
-            case 3:
-                jalur = "Mandiri";
-                ketJalur = "Minimal nilai akhir Lulus 50";
-                break;
-            default:
-                jalur = "Jalur tidak valid";
-                break;
-        }
-
-
+        
         
 
         // --- TAHAP 2: PROSES PERHITUNGAN ---
@@ -111,6 +93,17 @@ public class CM1_AzzahraAulia05Revisi {
         String sSem;
         String ketSem = "";
 
+        if (rataRata >= 65) {
+            jalur = "SNBP";
+        } else if (rataRata >= 60) {
+            jalur = "SBMPTN";
+        } else if (rataRata < 50) {
+            jalur = "Mandiri";
+            ;
+        } else {
+            jalur = "Jalur tidak valid";
+        }
+
       // Menentukan status kelulusan semester menggunakan nested if
     if (statusAlgo.equals("LULUS") && statusStrukdat.equals("LULUS")) {
             if (rataRata >= 70) { //
@@ -141,7 +134,6 @@ public class CM1_AzzahraAulia05Revisi {
         System.out.println("Status Semester      : " + sSem + ketSem);
         System.out.println("================================================================");
         System.out.println("Jalur Masuk          : " + jalur);
-        System.out.println("Keterangan           : " + ketJalur);
         System.out.println("================================================================");
 
         sc.close();

@@ -24,7 +24,7 @@ public class ifElseCetakKRS05 {
             System.out.println("KRS semester 8 ditampilkan");
         } else {
             System.out.println("Semester tidak valid");
-        }
+        }sc.close();
     }
     
 }

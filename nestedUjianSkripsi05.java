@@ -26,6 +26,7 @@ public class nestedUjianSkripsi05 {
             pesan= "Gagal! Mahasiswa masih memiliki tanggungan kompen";
         }
         System.out.println(pesan);
+        sc.close();
     }
     
 }
