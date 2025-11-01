@@ -1,4 +1,3 @@
-package jobsheet7;
 import java.util.Scanner;
 public class KafeDoWhile05 {
     public static void main(String[] args) {

@@ -1,4 +1,3 @@
-package jobsheet7;
 import java.util.Scanner;
 public class ProTiket {
     public static void main(String[] args) {
