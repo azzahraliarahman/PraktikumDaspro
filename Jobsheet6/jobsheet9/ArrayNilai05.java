@@ -1,4 +1,3 @@
-package jobsheet9;
 import java.util.Scanner;
 public class ArrayNilai05 {
     public static void main(String[] args) {
