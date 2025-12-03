@@ -19,5 +19,6 @@ public class Kubus05 {
 
         System.out.println("Volume kubus: " + volume);
         System.out.println("Luas permukaan kubus: " + luasPermukaan);
+        sc.close();
     }
 }
